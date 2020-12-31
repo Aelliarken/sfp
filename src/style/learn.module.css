@@ -21,7 +21,7 @@ a {
 
 section > div {
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	border: 1px solid blue;
 }
 
@@ -45,7 +45,7 @@ section > div {
 }
 
 .buttonText {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	border-radius: 9999px;
 	padding: 20px 0;
 	border: none;
