@@ -36,10 +36,11 @@ section > div {
 	border-radius: 25px;
 	padding: 50px;
 	align-items: center;
+	height: 450px;
 }
 
 .description {
-	font-size: .5em;
+	font-size: 2rem;
 	text-align: center;
 	color: #fff;
 	grid-column-start: 1;
@@ -52,7 +53,7 @@ section > div {
 }
 
 .buttonText {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	border-radius: 9999px;
 	padding: 50px 20px;
 	border: none;
