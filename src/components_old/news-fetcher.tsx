@@ -1,6 +1,5 @@
 import { h, Component } from "preact";
-const style = require("../style/news.module.css");
-import moment from "moment";
+const style = require("../style_old/news.module.css");
 
 export default class NewsFetcher extends Component<{}, any> {
 	constructor(props) {
@@ -78,7 +77,7 @@ export default class NewsFetcher extends Component<{}, any> {
 								<div className={style.center}>
 									<span className={style.title}>{post.title}</span>
 									<span className={style.authors}>By {getAuthors()}</span>
-									<span className={style.date}>{moment(post.pubdate).format('MMM Do, YYYY')}</span>
+									<span className={style.date}>{post.pubdate}</span>
 									<span className={style.tags}>{getTags()}</span>
 								</div>
 							</div>

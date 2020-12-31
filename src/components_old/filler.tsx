@@ -1,5 +1,5 @@
 import { h } from "preact";
-const style = require("../style/filler.module.css");
+const style = require("../style_old/filler.module.css");
 
 export default () => {
 	return ( 

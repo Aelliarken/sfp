@@ -1,5 +1,5 @@
 import { h } from "preact";
-const style = require("../style/learn.module.css");
+const style = require("../style_old/learn.module.css");
 
 const info = [
 	{
@@ -44,7 +44,7 @@ export default () => {
 									<div className={style.vector}><i class={card.vector}></i></div>
 									<div className={style.title}>{card.title}</div>
 									<div className={style.desc}><span>{card.description}</span></div>
-									<div className={style.viewSelection}>{card.buttonText}</div>
+									<div className={style.viewSelection}><span>{card.buttonText}</span></div>
 								</div>
 							)
 						})

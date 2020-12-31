@@ -15,7 +15,6 @@ header img {
 
 .headLink {
     height: 55px;
-    max-width: 400px;
     font-size: 1.1em;
     font-weight: bold;
     background-color: #fff;
@@ -47,3 +46,42 @@ header img {
     margin-top: 20px;
     margin-right: 100px;
 }
+
+@media only screen and (max-width: 1050px) {
+    header {
+        text-align: center;
+    }
+
+    .headLink {
+        height: 25px;
+        font-size: .70em;
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: 80px;
+        box-shadow: 1px 2px 2px 2px #000;
+        vertical-align: middle;
+        display: none;
+        margin-left: 15px;
+    }
+    
+    .headLink > i {
+        color: #b02817;
+        line-height: 55px;
+        padding-left: 10px;
+    }
+    
+    .headLink span {
+        vertical-align: middle;
+        line-height: 55px;
+        height: 55px;
+        display: inline-block;
+        margin-top: -18px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    
+    .linkCont {
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+  }

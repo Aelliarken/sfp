@@ -1,19 +1,10 @@
-import { h, Fragment } from "preact";
-import Footer from "../components/footer";
-import Filler from "../components/filler";
-import News from "../components/news";
-import Learn from "../components/learn";
-import Top from "../components/top";
-import Header from "../components/header";
+import { h } from "preact";
+import Learn from "../components/Learn"
 
-const style = require("../style/main.module.css");
+const style = require("../style/style.module.css");
 
-export const Home = () =>
-	<Fragment>
-		<Header />
-		<Top />
+export const Home = () => 
+	<div>
+		<div className={style.test}>Hello</div>
 		<Learn />
-		<News />
-		<Filler />
-		<Footer />
-	</Fragment>
+	</div>

@@ -1,5 +1,5 @@
 import { h } from "preact";
-const style = require("../style/footer.module.css");
+const style = require("../style_old/footer.module.css");
 
 export default () => {
 	return (

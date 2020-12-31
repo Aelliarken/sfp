@@ -1,7 +1,7 @@
 footer {
     background-color: #6b8085;
-    height: 500px;
     display: flex;
+    padding: 50px 0;
 }
 
 .footerGrid {

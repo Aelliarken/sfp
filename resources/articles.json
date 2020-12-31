@@ -9902,6 +9902,41 @@
         },
         "flagged":false,
         "ref": "uu-dlc"
+    },
+    
+    {
+        "title": "Judge-a-Pokemon Express: Gigantamax starters!",
+        "tags": ["Humor"],
+        "pubdate": "2020-06-06",
+        "contributors": {
+          "authors": [
+            {"name": "Codraroll", "id": 113666}, 
+            {"name": "Estronic", "id": 240732},
+            {"name": "Kalalokki", "id": 199661},
+            {"name": "Pikachu315111", "id": 241311},
+            {"name": "Ryota Mitarai", "id": 318452},
+            {"name": "Blitzamirin", "id": 101585},
+            {"name": "Lockjaw", "id": 236422},
+            {"name": "Max. Optimizer", "id": 309941},
+            {"name": "Kaiju Bunny", "id": 399067},
+            {"name": "Rabia", "id": 336073},
+            {"name": "JustoonSmitts", "id": 239732}],
+          "artists": [
+            {"name": "bubblymaika", "id": 237367}, 
+            {"name": "Bummer", "id": 73434}, 
+            {"name": "Cretacerus", "id": 133220}, 
+            {"name": "DatHeatmor", "id": 254865}, 
+            {"name": "FellFromtheSky", "id": 306230}, 
+            {"name": "LifeisDANK", "id": 305530}, 
+            {"name": "Reiga", "id": 209975}, 
+            {"name": "Shaymoo", "id": 347798}, 
+            {"name": "tiki", "id": 239505}, 
+            {"name": "aviul", "id": null}],
+          "gpers": [{"name": "The Dutch Plumberjack", "id": 232216}],
+          "coders": [{"name": "Naziel", "id": 407858}]
+        },
+        "flagged":false,
+        "ref": "jape-gmax-starters"
     }
     
 ]
