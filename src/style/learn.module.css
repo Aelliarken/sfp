@@ -8,6 +8,7 @@ section {
 
 h1 {
 	color: var(--secondary-clr);
+	text-align: center;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 
 section > div {
 	margin: 0 auto;
+	width: 70%;
 	border: 1px solid blue;
 }
 
