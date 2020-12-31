@@ -12,9 +12,12 @@ export default ({ card: { vector, title, description, buttonText, link } }) => {
 
 	return (
 		<div className={style.card}>
-			<i className={[vector, style.vector].join(" ")} /><div className={style.title}>{title}</div>
+			<i className={[vector, style.vector].join(" ")} />
+			<div className={style.title}>{title}</div>
 			<div className={style.description}>{htmlDecode(description)}</div>
-			<a href={link} target="_blank"><div className={style.buttonText}>{buttonText}</div></a>
+			<a href={link} target="_blank">
+				<div className={style.buttonText}>{buttonText}</div>
+			</a>
 		</div>
 	)
 }

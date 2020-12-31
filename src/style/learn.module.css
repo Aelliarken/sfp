@@ -13,6 +13,7 @@ h1 {
 
 a {
 	color: var(--primary-clr);
+	grid-area: 1 / 2 / 1 / 3;
 }
 
 .card i {
@@ -28,26 +29,32 @@ section > div {
 .card {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	grid-template-rows: max-content;
 	justify-content: center;
 	background-color: var(--primary-clr);
 	margin: 20px 0;
 	border-radius: 25px;
-	padding: 25px;
+	padding: 50px;
 	align-items: center;
 }
 
-.title, .description {
-	display: inline-block;
+.description {
+	font-size: .5em;
+	text-align: center;
+	color: #fff;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding: 20px 50px;
 }
 
-.description, .title {
+.title {
 	display: none;
 }
 
 .buttonText {
 	font-size: 2.5rem;
 	border-radius: 9999px;
-	padding: 20px 0;
+	padding: 50px 20px;
 	border: none;
 	background-color: #ffd014;
 	margin: 10px 0 10px 20px;
@@ -61,6 +68,7 @@ section > div {
 	display: grid;
 	align-items: center;
 	justify-items: center;
+	justify-self: center;
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
