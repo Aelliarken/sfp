@@ -3,25 +3,20 @@ section {
 	margin:0 auto;
 	font-size: 4rem;
 	width: 100%;
+	border: 1px solid red;
 }
 
 h1 {
 	color: var(--secondary-clr);
-	text-align: center;
-	font-size: 4em;
 }
 
 a {
 	color: var(--primary-clr);
 }
 
-.card > i {
-	font-size: 2em;
-}
-
 section > div {
 	margin: 0 auto;
-	width: 100%;
+	border: 1px solid blue;
 }
 
 .card {
@@ -29,11 +24,9 @@ section > div {
 	grid-template-columns: 1fr 3fr;
 	justify-content: center;
 	background-color: var(--primary-clr);
-	margin: 20px auto;
+	margin: 20px 0;
 	border-radius: 25px;
-	padding: 25px 100px;
-	align-items: center;
-	max-width: 80%;
+	padding: 25px;
 }
 
 .title, .description {
@@ -45,14 +38,14 @@ section > div {
 }
 
 .buttonText {
-	font-size: 4rem;
+	font-size: 1.5rem;
 	border-radius: 9999px;
-	padding: 60px 0;
+	padding: 20px;
+	border: none;
 	background-color: #ffd014;
-	margin: 10px 0 10px 20px;
+	margin: 10px  0 10px 20px;
 	text-align: center;
 	font-weight: 900;
-	min-height: 200px;
 }
 
 .vector {
@@ -62,6 +55,6 @@ section > div {
 	align-items: center;
 	justify-items: center;
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
