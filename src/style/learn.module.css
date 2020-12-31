@@ -15,9 +15,13 @@ a {
 	color: var(--primary-clr);
 }
 
+.card i {
+	font-size: 1.6em;
+}
+
 section > div {
 	margin: 0 auto;
-	width: 70%;
+	width: 90%;
 	border: 1px solid blue;
 }
 
@@ -29,6 +33,7 @@ section > div {
 	margin: 20px 0;
 	border-radius: 25px;
 	padding: 25px;
+	align-items: center;
 }
 
 .title, .description {
@@ -40,12 +45,12 @@ section > div {
 }
 
 .buttonText {
-	font-size: 1.5rem;
+	font-size: 3.5rem;
 	border-radius: 9999px;
-	padding: 20px;
+	padding: 20px 0;
 	border: none;
 	background-color: #ffd014;
-	margin: 10px  0 10px 20px;
+	margin: 10px 0 10px 20px;
 	text-align: center;
 	font-weight: 900;
 }
@@ -57,6 +62,6 @@ section > div {
 	align-items: center;
 	justify-items: center;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
